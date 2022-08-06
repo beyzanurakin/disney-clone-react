@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 //pages
 import Details from './pages/Details'
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/detail' element={<Details />} />
+        <Route path='/login' element={<Login />} />
         <Route
           path='*'
           element={
